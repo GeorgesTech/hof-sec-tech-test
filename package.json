@@ -1,0 +1,25 @@
+{
+  "name": "hof-sec-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.6.0"
+  },
+  "dependencies": {
+    "fastify": "^5.6.1",
+    "fastify-cookie": "^5.6.1",
+    "fastify-plugin": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "ts-node": "^10.9.2"
+  }
+}
